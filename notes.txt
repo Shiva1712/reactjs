@@ -1,0 +1,11 @@
+echo "# reactjs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Shiva1712/reactjs.git
+git push -u origin main
+
+ssh-keygen -t ed25519 -C "sivaprakash514@gmail.com"
+
+ssh -T git@github.com
